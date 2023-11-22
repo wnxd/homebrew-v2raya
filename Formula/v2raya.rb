@@ -6,11 +6,11 @@ class V2raya < Formula
     
     $v2rayA_version = "2.2.4.3"
     $url_linux_x64 = "https://github.com/wnxd/homebrew-v2raya/releases/download/2.2.4.3/v2raya-x86_64-linux.zip"
-    $sha_linux_x64 = "e3391178e8bdda7538aa4550dcd94d410c1610ef858c83cda88e093999ecd0a9"
+    $sha_linux_x64 = "56e92e9f2edbedec0cd66cf15d5baff79ad1d276d988317b6f0e2f11ac78c1bf"
     $url_macos_x64 = "https://github.com/wnxd/homebrew-v2raya/releases/download/2.2.4.3/v2raya-x86_64-macos.zip"
-    $sha_macos_x64 = "9c691792c80fddb574a5f86fef80e35be2dfb293a82e384e0d0c428db5211908"
+    $sha_macos_x64 = "d3fa3e23658be077b866e5f88b552aecc48abe4ef112afb615bafd5dbcd68df0"
     $url_macos_arm64 = "https://github.com/wnxd/homebrew-v2raya/releases/download/2.2.4.3/v2raya-aarch64-macos.zip"
-    $sha_macos_arm64 = "265a2fa3a364a13b526ae5c298819ce98169a83fa6ccf903677f4b3dbe351426"
+    $sha_macos_arm64 = "0063f61adb7f1fdf86a740b66bd6af117ea2dee6e51be2e8dc9f50875a038891"
 
     if OS.linux?
       url $url_linux_x64
